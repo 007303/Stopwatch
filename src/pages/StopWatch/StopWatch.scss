@@ -1,0 +1,57 @@
+.stopWatchContainer {
+  .layout {
+    min-height: 100vh;
+  }
+
+  .header {
+    padding: 0 16px;
+    display: flex;
+    background: black;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .card {
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+  }
+
+  .cardTitle {
+    text-align: start;
+  }
+
+  .cardSubtitle {
+    text-align: start;
+    font-size: 19px;
+    font-weight: 400;
+    color: #939393;
+  }
+
+  .timer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .animationGif {
+    width: 100px;
+    height: 65px;
+  }
+
+  .projectLogo {
+    height: 6vh;
+  }
+
+  .infoButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+}

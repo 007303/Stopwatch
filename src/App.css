@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width:100%
+}
+.ant-btn-primary {
+  background-color: black !important; 
+  border-color: black !important;
+  color: white !important; 
+}
+
+.ant-btn-primary:hover {
+  background-color: #333 !important;
+  border-color: #333 !important; 
+}
+
+.ant-btn-primary:active {
+  background-color: #444 !important; 
+  border-color: #444 !important;
+}
+
+.ant-btn-primary[disabled] {
+  background-color: #666 !important; 
+  border-color: #666 !important;
+  color: #ccc !important; 
+  cursor: not-allowed; 
+}
+
+.ant-btn-primary[disabled]:hover {
+  background-color: #666 !important; 
+  border-color: #666 !important; 
+}
